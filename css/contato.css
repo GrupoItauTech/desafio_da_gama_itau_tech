@@ -1,0 +1,32 @@
+/*INÍCIO DA PÁGINA CONTATO*/
+form{
+  width: 30%;
+  margin-left: auto;
+}
+
+input, textarea{
+  width: 94%;
+  padding: 10px;
+  margin-bottom: 1em;
+  font: 1em sans-serif;
+  border: 1px solid #999;
+}
+
+label{
+  font-weight: bold;
+  padding-bottom: 6px;
+  display: inline-block;
+}
+
+.linha{
+  padding: 5px 30px;
+}
+
+aside{
+  float: right;
+  padding: 0;
+}
+
+
+
+/*FIM DA PÁGINA CONTATO*/
