@@ -1,7 +1,7 @@
 function validateForm() {
     let x = document.forms["validaForm"]["fname"].value;
     if (x == "") {
-        alert("Campo não preenchido!");
+        alert("Formulário não preenchido!");
         return false;
     }
 }

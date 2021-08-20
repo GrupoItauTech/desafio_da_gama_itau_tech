@@ -4,23 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
     <title>Fale conosco!</title>
 </head>
 <body>
-    <header>
+<header>
+    <h1>Saúde Informa</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="saibamais.html">SAIBA MAIS</a></li>
+        <li><a href="#">CONTATO</a></li>
+        <li><a href="sobre.html">SOBRE NÓS</a></li>
+        <li><a href="index.html">HOME</a></li>
+    </ul>
+</nav>
+<div class="linha">
 
-    </header>
-<section>
     <article>
-
-        <form name="validaForm" onsubmit="return validateForm()" method="post" 
-        action="/sucesso" netlify>
-    Nome: <input type="text" name="fname">
-    <input type="submit" value="Submit">
-</form>
-        
+            <form class="card" name="validaForm" onsubmit="return validateForm()" method="post" action="/sucesso" netlify>
+                <label for="inputNome">Nome:</label>
+                <input type="text" id="inputNome" required maxlength="26" minlength="2"><br>
+                <label for="inputFone">Fone:</label>
+                <input type="tel" required maxlength="26" ><br>
+                <label for="inputFone">E-mail:</label>
+                <input type="email" required maxlength="26"><br>
+                <label for="inputFone">Mensagem:</label>
+                <textarea name="fname"  cols="30" rows="10" placeholder="Fale com a gente..."  maxlength="300"></textarea>
+                <input type="submit" value="Submit">
+            </form>
     </article>
-</section>
+
+</div>
 </body>
 <script src="js/validationForm.js"></script>
 </html>
