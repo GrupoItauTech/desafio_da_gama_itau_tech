@@ -18,6 +18,15 @@ main{
 .imagemNoticia:hover{
   box-shadow:black 5px 5px 3px;
 }
+.imagemNoticiaMais{
+  width: 200px;
+  height: 150px;
+  padding: 10px;
+  background-color: gainsboro;
+  border: orange 3px solid;
+  margin-top: -70px;
+  margin-left: -10px;
+}
 .logotipo{
   display: flex;
   justify-content: center;
@@ -58,6 +67,10 @@ button:hover{
 .btnNoticias{
   margin-top: 10px;
   margin-left: 35%;
+}
+.btnNoticiasSaibaMais{
+  margin-top: 10px;
+  margin-left: 85%;
 }
 .titulo{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -128,7 +141,7 @@ header nav {
     height: 300px;
     padding: 10px;
     margin-bottom: 20px;
-    border: gray) 1px solid;
+    border: gainsboro 20px solid;
     box-shadow: black 0px 0px 2px;
 }
 
