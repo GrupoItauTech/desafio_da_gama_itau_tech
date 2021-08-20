@@ -1,46 +1,191 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
-header{
-    text-align: center;
-    background-color: #242529;
-    padding: 2px;
-}
-
-header h1{
-    font-size: 40px;
-    color: aliceblue;
-}
-
-nav ul{
-    list-style-type: none;
-    background-color:#ff7200;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
-nav a{
-    color: #242529;
-    text-decoration: none;
-    padding: 16px;
-    display: block;
-}
-
-nav li{
-    float: right;
-}
-
-nav a:hover{
-    background-color:#242529;
-    color: aliceblue;
-    transform:scale(1.2);
-    font-family:'Open Sans', sans-serif;
-    font-weight: bold;
-}
-
 body{
-    background-color: antiquewhite;
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+main{
+    padding: 20px;
+}
+.imagemNoticia{
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    background-color: gainsboro;
+    margin-top: 10px;
+    margin-left: 30%;
+    border: white 2px solid;
+    box-shadow:black 0px 0px 1px;
+}
+.imagemNoticia:hover{
+  box-shadow:black 5px 5px 3px;
+}
+.logotipo{
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  height: 80px; 
+  padding: 10px;
+  border-radius: 50%;
+  background-color: gainsboro;
+  margin-top: 10px;
+  margin-left: 20px;
+  box-shadow:black 0px 0px 3px;
+}
+.logotipo:hover{
+box-shadow:black 5px 5px 3px;
+}
+button{
+    background-color: rgb(255,114,0);
+    padding: 8px;
+    border: gainsboro 1px solid;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow:black 1px 2px 3px;
+}
+button:hover{
+    color:white;
+    background-color: rgb(20, 0, 131);
+    cursor: pointer;
+    text-decoration: none;
+    border: white 1px solid;
+    box-shadow:black 5px 5px 3px;
+}
+.btn{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+}
+.btnNoticias{
+  margin-top: 10px;
+  margin-left: 35%;
+}
+.titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(20, 0, 131);
+}
+.tituloNoticia{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(20, 0, 131);
+}
+.textoNoticias{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    margin-top: -6px
+  }
+  header nav ul {
+    margin: 0px;
+    float: right;
+  }
+  header nav ul li {
+    display: inline-block;
+    line-height: 120px;
+    margin: 5px;
+  }
+  header nav ul li a {
+    display: block;
+    width: 120px;
+    line-height: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  header nav ul li a:link{
+    font-size: 16px;
+    font-weight:bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.menu{
+  margin-right: 20px;
 }
 
+.secao-rodape{
+    height: 200px;
+}
 
+.secao-noticiais-home{
+  display: flex;
+  justify-content: center;
+    background-color: gainsboro;
+    height: 420px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: gainsboro 1px solid;
+    box-shadow: black 0px 0px 2px;
+}
+.secao-saiba-mais{
+  background-color: white;
+    height: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: gray) 1px solid;
+    box-shadow: black 0px 0px 2px;
+}
+
+.secaoNoticiasLeft{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  width: 47%;
+  background-color: white;
+  border: rgb(20, 0, 131) 1px solid;
+}
+
+.secaNoticiasRight{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  width: 47%;
+  background-color: white;
+  border: rgb(20, 0, 131) 1px solid;
+
+}
+#secaoNoticiasQuadro{
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  background-color:gainsboro;
+  padding: 10px;
+}
+#rodape{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  background-color:rgb(20, 0, 131);
+  padding: 10px;
+  box-shadow: black 0px 0px 2px;
+}
+.receba{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:white;
+  margin-top: 30px;
+}
+
+.rodapeTexto{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 30px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.emailRodape{
+  margin-right: 50px;
+  color: white;
+  margin-bottom: 20px;
+  text-shadow: black 1px 1px 1px;
+}
+input{
+  font-size: 20px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
