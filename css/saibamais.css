@@ -1,8 +1,11 @@
 .btnNoticiasSaibaMais{
-    margin-top: 10px;
-    margin-left: 85%;
+    margin-top: 20%;
+    height: 50px;
+    
   }
   .secao-saiba-mais{
+    display: flex;
+    justify-content: space-between;
     background-color: white;
     height: 300px;
     padding: 10px;
@@ -14,9 +17,29 @@
     width: 200px;
     height: 150px;
     padding: 10px;
-    background-color: gainsboro;
+    background-color: white;
     border: rgb(255,114,0) 3px solid;
-    margin-top: -70px;
+
     margin-left: -10px;
   }
-  
+  .iframeSaibaMais{
+    width: 570px;
+    height: 316px;
+    border: rgb(255,114,0) 2px solid;
+    margin-top: -10px;
+    margin-left: -10px ;
+
+  }
+  .notíciaTítulo{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.divtextoNoticia{
+    width: 410px;
+}
+.textoNotíciaSaibaMais{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
