@@ -101,26 +101,3 @@ header nav ul li a:link{
   margin-top: 50px;
   font-weight: bold;
 }
-
-
-.btnNoticiasSaibaMais{
-  margin-top: 10px;
-  margin-left: 85%;
-}
-.secao-saiba-mais{
-  background-color: white;
-  height: 300px;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: gainsboro 20px solid;
-  box-shadow: black 0px 0px 2px;
-}
-.imagemNoticiaMais{
-  width: 200px;
-  height: 150px;
-  padding: 10px;
-  background-color: gainsboro;
-  border: rgb(255,114,0) 3px solid;
-  margin-top: -70px;
-  margin-left: -10px;
-}
