@@ -1,32 +1,29 @@
 /*INÍCIO DA PÁGINA CONTATO*/
-form{
-  width: 30%;
+.card{
+  width: 40%;
   margin-left: auto;
 }
 
 input, textarea{
-  width: 94%;
-  padding: 10px;
-  margin-bottom: 1em;
+  width: 95%;
+  margin-bottom: 2em;
+  display: inline-block;
   font: 1em sans-serif;
-  border: 1px solid #999;
+  border: 2px solid #999;
 }
 
 label{
   font-weight: bold;
-  padding-bottom: 6px;
+  padding-bottom: 1px;
   display: inline-block;
 }
 
-.linha{
-  padding: 5px 30px;
+article {
+  display:table-cell;
+  float:right;
+  width: 100%;
+  margin: 2%;
 }
-
-aside{
-  float: right;
-  padding: 0;
-}
-
 
 
 /*FIM DA PÁGINA CONTATO*/
