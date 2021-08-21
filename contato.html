@@ -25,19 +25,28 @@
         </nav>
     </header>
 <section>
-    <article>
-            <form class="card" name="validaForm" onsubmit="return validateForm()" method="post" action="/sucesso" netlify>
-                <label for="inputNome">Nome:</label>
-                <input type="text" id="inputNome" required maxlength="26" minlength="2"><br>
-                <label>Fone:</label>
-                <input type="tel" required maxlength="26" ><br>
-                <label>E-mail:</label>
-                <input type="email" required maxlength="26"><br>
-                <label for="inputFone">Mensagem:</label>
+    <article >
+            <form name="validaForm" onsubmit="return validateForm()" method="post" action="/sucesso" netlify>
+                <h3>Nome:</h3>
+                <input type="text" placeholder="Nome Completo" required maxlength="26" minlength="2"><br>
+                <h3>Fone:</h3>
+                <input type="tel" placeholder="(xx) xxxxx-xxxx" required maxlength="26" ><br>
+                <h3>E-mail:</h3>
+                <input type="email" placeholder="informe@email.com"  required maxlength="26"><br>
+                <h3>Mensagem:</h3>
                 <textarea name="fname"  cols="50" rows="8" placeholder="Fale com a gente..."  maxlength="300"></textarea>
-                <button type="submit" >Enviar                 </button>
+                <div id="botao"><br>
+                   <button class="btnContato" type="submit" >Enviar</button>
+                </div>
             </form>
     </article>
+    <div class="txtCont">
+        <br><br><br>
+        <h2 class="tituloH2">Fale com a gente</h2>
+        <p>Visite nossa Central de ajuda para obter mais informações. Você pode encontrar artigos da Central de ajuda que respondam
+        à sua dúvida. Caso a sua dúvida não esteja relacionada a nenhuma das notícias, entre em contato conosco.</p>
+    </div>
+
 </section>
 </body>
 <script src="js/validationForm.js"></script>

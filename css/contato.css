@@ -1,39 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
 
-/*INÍCIO DA PÁGINA CONTATO*/
-.card{
-  width: 40%;
-  margin-left: auto;
-}
 
+/*INÍCIO DA PÁGINA CONTATO*/
 input, textarea{
-  width: 95%;
-  margin-bottom: 2em;
-  display: inline-block;
+  border-radius:10px;
+  width:90%;
+  padding:10px;
   font: 1em sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border: 2px solid #999;
 }
-
+input::placeholder {
+  color: red;
+  font-family: 'Open Sans', sans-serif;
+}
 input:invalid, textarea:invalid{
-  border-color: rgb(231, 147, 147);
+  border-color: rgb(153, 6, 6);
 }
 
 input:valid{
   border-color: green;
 }
 
-label{
-  font-weight: bold;
-  padding-bottom: 1px;
-  display: inline-block;
+#botao{text-align: left;}
+
+.btnContato{
+  border-radius: 10px;
+  padding:16px 20px;
+  background-color: #3cff00cb;
+  transition-duration: 0.4s;
+  overflow:hidden;
+  color: #242529;
+  font-family: 'Open Sans', sans-serif;
+  outline: 0;
+  text-decoration: none;  
+  font-weight:bold;
+  font-size:16px;
+  
 }
 
 article {
   display:table-cell;
-  float:right;
-  width: 100%;
-  margin: 2%;
+  float:left;
+  width: 50%;
+  margin: 50px;
 }
+
+article h3 {
+  color: white;
+  font-size: 20px;
+  font-weight:bold;
+  margin:10px;
+  font-family:'Open Sans', sans-serif;
+}
+
+.txtCont p{
+  display:table-cell;
+  color: white;
+  font-family:'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size:30px;
+  text-align: justify;
+  padding:0 60px 0 0px;
+ 
+}
+.tituloH2{
+  color: antiquewhite;
+  font-size:40px;
+}
+
 
 
 /*FIM DA PÁGINA CONTATO*/
