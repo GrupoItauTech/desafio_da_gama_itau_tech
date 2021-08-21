@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
 /*INÍCIO DA PÁGINA CONTATO*/
 .card{
   width: 40%;
@@ -10,6 +12,14 @@ input, textarea{
   display: inline-block;
   font: 1em sans-serif;
   border: 2px solid #999;
+}
+
+input:invalid, textarea:invalid{
+  border-color: rgb(231, 147, 147);
+}
+
+input:valid{
+  border-color: green;
 }
 
 label{
