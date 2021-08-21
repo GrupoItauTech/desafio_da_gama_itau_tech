@@ -1,6 +1,6 @@
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: white;
+  background-color: rgb(56, 56, 56);
 }
 main{
   padding: 20px;
@@ -13,7 +13,7 @@ main{
   height: 80px; 
   padding: 10px;
   border-radius: 50%;
-  background-color: gainsboro;
+  background-color: rgb(255,114,0);
   margin-top: 10px;
   margin-left: 20px;
   box-shadow:black 0px 0px 3px;
@@ -24,9 +24,9 @@ main{
 button{
   background-color: rgb(255,114,0);
   padding: 8px;
-  border: gainsboro 1px solid;
+  border: rgb(56, 56, 56) 1px solid;
   font-weight: bold;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow:black 1px 2px 3px;
 }
 button:hover{
@@ -34,7 +34,6 @@ button:hover{
   background-color: rgb(20, 0, 131);
   cursor: pointer;
   text-decoration: none;
-  border: white 1px solid;
   box-shadow:black 5px 5px 3px;
 }
 .btn{
@@ -47,7 +46,7 @@ button:hover{
 header nav {
   display: flex;
   justify-content: space-between;
-  background-color: white;
+  background-color: rgb(56, 56, 56);
   width: 100%;
   margin-top: -6px
 }
