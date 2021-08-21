@@ -24,24 +24,21 @@
             </ul>
         </nav>
     </header>
-
-<div class="linha">
-
+<section>
     <article>
             <form class="card" name="validaForm" onsubmit="return validateForm()" method="post" action="/sucesso" netlify>
                 <label for="inputNome">Nome:</label>
                 <input type="text" id="inputNome" required maxlength="26" minlength="2"><br>
-                <label for="inputFone">Fone:</label>
+                <label>Fone:</label>
                 <input type="tel" required maxlength="26" ><br>
-                <label for="inputFone">E-mail:</label>
+                <label>E-mail:</label>
                 <input type="email" required maxlength="26"><br>
                 <label for="inputFone">Mensagem:</label>
-                <textarea name="fname"  cols="30" rows="10" placeholder="Fale com a gente..."  maxlength="300"></textarea>
-                <input type="submit" value="Submit">
+                <textarea name="fname"  cols="50" rows="8" placeholder="Fale com a gente..."  maxlength="300"></textarea>
+                <button type="submit" >Enviar                 </button>
             </form>
     </article>
-
-</div>
+</section>
 </body>
 <script src="js/validationForm.js"></script>
 </html>
