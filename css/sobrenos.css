@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+.secaoSobreNos{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    height: 300px;
+    padding: 30px;
+    border: gray 1px solid;
+    margin-bottom: 18px;
+}
+.divSecaoSobreNos{
+    display: flex;
+    justify-content: space-between;
+    width: 120vh;
+}
+.imagemSobreNos{
+    width: 32vh;
+    height: 32vh;
+    border-radius: 50%;
+    box-shadow: black 2px 2px 3px;
+}
+.imagemSobreNos:hover{
+    box-shadow: rgb(219, 124, 16) 2px 5px 3px;
+
+}
+.divTextoSecaoSobreNos{
+    height: 30vh;
+    margin-top: 50px;
+}
+.botaoLinkedin{
+    width: 120px;
+    height: 60px;
+    margin-top: 110px;
+    text-decoration:none;
+}
+.textoNomeSobreNos{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textoProfissaoSobreNos{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
