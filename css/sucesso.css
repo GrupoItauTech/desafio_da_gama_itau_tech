@@ -1,0 +1,39 @@
+
+.sessaoSucesso{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 54vh;
+    width: 160vh;
+    margin-left: 14vh;
+    margin-top: 30px;
+    padding: 60px; 
+}
+
+.imagemSucesso{
+    width: 60vh;
+    height: 54vh;
+    border:black 1px solid;
+    box-shadow: black 5px 5px 3px;
+    }
+.imagemSucesso:hover{
+    box-shadow: rgb(255,114,0) 5px 5px 3px;
+}
+
+.textoTituloSucesso{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.textoMensagemSucesso{
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.divTextoSucesso{
+    width: 80vh;
+}
