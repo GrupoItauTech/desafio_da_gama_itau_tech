@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
 body{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-image: linear-gradient(100deg, cyan, yellow);
   margin: 0px;
 }
