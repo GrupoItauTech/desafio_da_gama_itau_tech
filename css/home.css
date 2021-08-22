@@ -6,18 +6,20 @@
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color:rgb(20, 0, 131);
+  height: 20px;
 }
 .textoNoticias{
   margin-left: 10px;
   margin-right: 10px;
+  height: 30px;
 }
 .btnNoticias{
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 35%;
 }
 .imagemNoticia{
     width: 200px;
-    height: 150px;
+    height: 140px;
     padding: 10px;
     background-color: gainsboro;
     margin-top: 10px;
@@ -31,32 +33,29 @@
 .secao-noticiais-home{
     display: flex;
     justify-content: center;
-    background-color: white;
-    height: 420px;
-    padding: 10px;
-    margin-bottom: 20px;
-    box-shadow: black 0px 0px 2px;
+    height: 370px;
+    margin-bottom: 4px;
 }
 .secaoNoticiasLeft{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     width: 47%;
     background-color: white;
-    border: black 1px solid;
+    border: gray 1px solid;
+
 }
 .secaNoticiasRight{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     width: 47%;
     background-color: white;
-    border: black 1px solid; 
+    border: gray 1px solid; 
+
 }
 #secaoNoticiasQuadro{
     display: flex;
     justify-content: space-between;
-    height: 400px;
-    background-color:white;
-    padding: 10px;
+    height: 360px;
 }
 .sptfy{
     width:90%;
@@ -72,3 +71,11 @@
     border: rgb(255,114,0) 3px solid;
     border-radius: 30px;
 }
+.secaoHomeTop{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 200px;
+    margin-bottom: 14px;
+    border: gray 1px solid;
+  }

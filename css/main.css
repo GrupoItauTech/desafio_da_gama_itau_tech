@@ -1,6 +1,6 @@
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rgb(56, 56, 56);
+  background-image: linear-gradient(100deg, cyan, yellow);
 }
 main{
   padding: 20px;
@@ -46,7 +46,7 @@ button:hover{
 header nav {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(56, 56, 56);
+  background-image: linear-gradient(100deg, cyan, yellow);
   width: 100%;
   margin-top: -6px
 }
