@@ -26,15 +26,17 @@
     </header>
 <section>
     <article >
-            <form name="validaForm" onsubmit="return validateForm()" method="post" action="/sucesso" netlify>
+            <form name="validaForm" onsubmit="return validateForm()" method="post" action="https://api.staticforms.xyz/submit" netlify>
+                <input type="hidden" name="accessKey" value="cd88d081-cb41-432b-a215-363834c8a904">
+                <input type="hidden" name="redirectTo" value="hhttps://grupo1-itau-tech-gama.netlify.app/sucesso">
                 <h3>Nome:</h3>
-                <input type="text" placeholder="Nome Completo" required maxlength="26" minlength="2"><br>
+                <input type="text" name="name" placeholder="Nome Completo" required maxlength="26" minlength="2"><br>
                 <h3>Fone:</h3>
                 <input type="tel" placeholder="(xx) xxxxx-xxxx" required maxlength="26" ><br>
                 <h3>E-mail:</h3>
-                <input type="email" placeholder="informe@email.com"  required maxlength="26"><br>
+                <input type="email" name="email" placeholder="informe@email.com"  required maxlength="26"><br>
                 <h3>Mensagem:</h3>
-                <textarea name="fname"  cols="50" rows="8" placeholder="Fale com a gente..."  maxlength="300"></textarea>
+                <textarea name="message" cols="50" rows="8" placeholder="Fale com a gente..."  maxlength="300"></textarea>
                 <div id="botao"><br>
                    <button class="btnContato" type="submit" >Enviar</button>
                 </div>
