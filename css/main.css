@@ -1,11 +1,11 @@
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rgb(56, 56, 56);
+  background-image: linear-gradient(100deg, cyan, yellow);
+  margin: 0px;
 }
 main{
-  padding: 20px;
+  margin: 25px;
 }
-
 .logotipo{
   display: flex;
   justify-content: center;
@@ -42,13 +42,10 @@ button:hover{
   text-decoration: none;
   padding: 18px;
 }
-
 header nav {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(56, 56, 56);
   width: 100%;
-  margin-top: -6px
 }
 header nav ul {
   margin: 0px;
