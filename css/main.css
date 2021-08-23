@@ -1,53 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
-
 body{
-  font-family: 'Open Sans', sans-serif;
-  background-image: linear-gradient(100deg, cyan, yellow);
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
   margin: 0px;
-}
-main{
-  margin: 25px;
 }
 .logotipo{
   display: flex;
   justify-content: center;
-  width: 80px;
-  height: 80px; 
-  padding: 10px;
-  border-radius: 50%;
-  background-color: rgb(255,114,0);
-  margin-top: 10px;
-  margin-left: 20px;
-  box-shadow:black 0px 0px 3px;
-}
-.logotipo:hover{
-  box-shadow:black 5px 5px 3px;
+  width: 140px;
+  height: 52px; 
+  margin-top: 13px;
+  margin-left: 30px;
 }
 button{
-  background-color: rgb(255,114,0);
-  padding: 8px;
-  border: rgb(56, 56, 56) 1px solid;
   font-weight: bold;
   border-radius: 10px;
-  box-shadow:black 1px 2px 3px;
 }
 button:hover{
-  color:white;
-  background-color: rgb(20, 0, 131);
   cursor: pointer;
   text-decoration: none;
-  box-shadow:black 5px 5px 3px;
 }
 .btn{
-  font-size: 18px;
-  color: white;
+  font-size: 16px;
   text-decoration: none;
-  padding: 18px;
+  padding: 20px;
+  border: none;
+}
+.btnMenu{
+  font-size: 16px;
+  text-decoration: none;
+  border: none;
+  background-color: #F2F2F2;
+}
+header{
+  background-color: #F2F2F2;
+  height: 80px;
+  width: 100%;
 }
 header nav {
   display: flex;
   justify-content: space-between;
-  width: 100%;
 }
 header nav ul {
   margin: 0px;
@@ -55,22 +47,20 @@ header nav ul {
 }
 header nav ul li {
   display: inline-block;
-  line-height: 120px;
-  margin: 5px;
+  line-height: 80px;
+  margin-left: 5px;
 }
 header nav ul li a {
   display: block;
   width: 120px;
-  line-height: 20px;
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header nav ul li a:hover{
+  color: blue;
 }
 header nav ul li a:link{
   font-size: 16px;
-  font-weight:bold;
-  color: white;
   text-align: center;
   text-decoration: none;
 }
@@ -78,23 +68,18 @@ header nav ul li a:link{
   margin-right: 20px;
 }
 .secao-rodape{
-  height: 200px;
+  height: 100px;
 }
-#rodape{
+.rodape{
   display: flex;
   justify-content: center;
   height: 100%;
-  background-color:rgb(20, 0, 131);
-  padding: 10px;
-  box-shadow: black 0px 0px 2px;
-}
-.receba{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color:white;
-  margin-top: 30px;
+  background-color:#F2F2F2;
+  margin-top: 10px;
 }
 .rodapeTexto{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
   margin-left: 30px;
   margin-top: 50px;
   font-weight: bold;
