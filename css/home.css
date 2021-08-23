@@ -50,6 +50,7 @@
     justify-content: space-between;
     height: 360px;
     padding: 20px;
+    background-color: #F2F2F2;
 }
 .sptfy{
     width:90%;
@@ -68,6 +69,8 @@
 .secaoHomeTop{
     display: flex;
     justify-content: space-between;
-    background-color: gainsboro;
+    background-image: url('/Image/imagem01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 370px;
   }
