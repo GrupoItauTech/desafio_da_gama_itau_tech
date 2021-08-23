@@ -8,130 +8,100 @@
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color:rgb(20, 0, 131);
-  height: 20px;
+  height: 10px;
 }
 .textoNoticias{
-  margin-left: 10px;
-  margin-right: 10px;
-  height: 30px;
+    text-align: justify;
+    height: 80px;
 }
 .btnNoticias{
-    margin-top: 5px;
-    margin-left: 35%;
+    background-color: white;
+    height: 60px;
+    margin-left: 38%;
+    margin-top: 0px;
+    box-shadow:grey 3px 3px 3px;
+}
+.btnNoticias:hover{
+    background-color: gainsboro;
+    box-shadow:black 3px 3px 3px;
 }
 .imagemNoticia{
-    width: 200px;
-    height: 140px;
-    margin-top: 10px;
-    margin-left: 30%;
+    width: 520px;
+    height: 380px;
+    border-radius: 5px;
+    box-shadow:gray 3px 3px 3px;
 }
 .imagemNoticia:hover{
-  box-shadow:black 5px 5px 3px;
+  box-shadow:black 3px 3px 3px;
 }
 .secao-noticiais-home{
     display: flex;
-    justify-content: center;
-    height: 370px;
-}
-.secaoNoticiasLeft{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
-    width: 47%;
-    background-color: #F2F2F2;
-}
-.secaNoticiasRight{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
-    width: 47%;
-    background-color: #F2F2F2;
-}
-#secaoNoticiasQuadro{
-    display: flex;
     justify-content: space-between;
-    height: 360px;
-    padding: 20px;
+    height: 370px;
+    margin-top: -20px;
+    padding: 60px;
+}
+
+.divTextoNoticias{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 47%;
+    margin-top: 20px;
     background-color: #F2F2F2;
 }
+
 .sptfy{
-    width:90%;
-    height:200px;
-    Border: 0px;
-    margin-top: 20px;
-    margin-left: 30px;
+    width:40%;
+    height:232px;
+    Border: 0;
+    margin-top: 30px;
+    box-shadow:gray 3px 3px 3px;
+}
+.sptfy:hover{
+    box-shadow:black 3px 3px 3px;
 }
 .audioHome{
-    margin-left: 160px;
-    margin-top: 30px;
-    margin-bottom: 50px;
     border: gray 3px solid;
+    height: 56px;
+    width: 360px;
     border-radius: 30px;
+    margin-top: 70px;
+    margin-right: 160px;
+    box-shadow:gray 3px 3px 3px;
+}
+.audioHome:hover{
+    box-shadow:black 3px 3px 3px;
 }
 
-.secaoHomeTop{
+.iframeVideo{
+    width: 570px;
+    height: 320px;
+    box-shadow:gray 3px 3px 3px;
+    margin-left: -10px ;
+  }
+  .iframeVideo:hover{
+    box-shadow:black 3px 3px 3px;
+  }
+ .secaoHomeTop{
     display: flex;
     justify-content: space-between;
+    background-image: url('/Image/imagem01.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 380px;
+    height: 370px;
+    width: 100%;
   }
-
-
-/* Slideshow container */
 .slideshow-container {
-  max-width: 14000px;
-  height: 380px;
-  margin: auto;
+    width: 100%;
+    height: 370px;
 }
-
-/* Hide the images by default */
+.imgSlide{
+    background-size: cover;
+    width: 100%;
+    height: 370px;
+}
 .mySlides {
   display: none;
 }
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color:black;
-  font-weight: bold;
-  font-size: 30px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -143,17 +113,7 @@
   from {opacity: .4}
   to {opacity: 1}
 }
-
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
-  /*
-.secaoHomeTop{
-    display: flex;
-    justify-content: space-between;
-    background-image: url('/Image/imagem01.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 370px;
-  }*/
