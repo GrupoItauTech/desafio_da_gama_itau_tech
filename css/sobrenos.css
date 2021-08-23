@@ -5,8 +5,8 @@
     background-color:white;
     height: 300px;
     padding: 30px;
-    border: gray 1px solid;
-    margin-bottom: 18px;
+    border: gainsboro 1px solid;
+    margin-bottom: 10px;
 }
 .divSecaoSobreNos{
     display: flex;
