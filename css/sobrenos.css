@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-around;
     background-color:white;
-    height: 300px;
+    height: 350px;
     padding: 20px;
     border: gainsboro 1px solid;
     margin-bottom: 20px;
@@ -27,6 +27,7 @@
 .divTextoSecaoSobreNos{
     height: 400px;
     margin-top: 40px;
+    width: 30%;
 }
 
 .botaoLinkedin{
@@ -40,7 +41,7 @@
     text-decoration: black;  
     font-weight:bold;
     font-size:18px;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 .botaoLinkedin:hover{
     background-color: gainsboro;
