@@ -33,29 +33,10 @@ select{
 
 #botao{text-align: left;}
 
-.btnContato{
-  border-radius: 10px;
-  padding:16px 20px;
-  background-color:#F2F2F2;
-  transition-duration: 0.4s;
-  overflow:hidden;
-  font-family: 'Open Sans', sans-serif;
-  outline: 0;
-  text-decoration: black;  
-  font-weight:bold;
-  font-size:16px;
-  
-}
-
-.btnContato:hover{
-  cursor: pointer;
-  color: blue;
-}
-
 article {
   display:table-cell;
   float:left;
-  width: 50%;
+  width: 160%;
   margin: 50px;
 }
 
@@ -82,20 +63,27 @@ article h3 {
   font-size:40px;
 }
 
-#btnScroll {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 70px;
-  z-index: 999;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: rgb(0, 9, 128);
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+.btnContato{
+  background-color: white;
+  height: 60px;
+  width: 120px;
+  margin-left: 38%;
+  margin-top: 0px;
+  border: gray 1px solid;
+  box-shadow:grey 3px 3px 3px;
+  font-family: 'Open Sans', sans-serif;
+  outline: 0;
+  text-decoration: black;  
+  font-weight:bold;
+  font-size:16px;
+}
+.btnContato:hover{
+  background-color: gainsboro;
+  box-shadow:black 3px 3px 3px;
 }
 
+.secaoContato{
+  display: flex;
+  justify-content: space-between;
+}
 /*FIM DA PÁGINA CONTATO*/
