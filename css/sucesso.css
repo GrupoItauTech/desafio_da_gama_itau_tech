@@ -24,6 +24,11 @@
   padding:0;
   margin:-15px 0 0 -30px;
   border-radius: 12px;
-   
+  border: gray 1px solid;
+  font-weight: bold;
+  box-shadow:grey 3px 3px 3px;
 }
-
+.btn-wrap button:hover{
+  background-color: gainsboro;
+  box-shadow:black 3px 3px 3px;
+}
