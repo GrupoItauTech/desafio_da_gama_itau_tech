@@ -22,7 +22,7 @@ Para ver a **Landing page**, clique aqui: [SAÚDE NEWS](https://grupo1-itau-tech
 - [Bruno Aparecido Marques](https://github.com/BrunoApMarques)
 - [Cristiano de Souza Santos](https://github.com/CSS6958)
 - [Fabricio Messias](https://github.com/FabricioMessias)
-- [Weslley Lima](https://github.com/WCL79)
+- [Weslley C. Lima](https://github.com/WCL79)
 - [Nilton Meira da Silva Filho](https://github.com/MNilton)
 
 
