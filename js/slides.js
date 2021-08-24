@@ -12,5 +12,5 @@ function transicaoSlide() {
         i = 2 
     }
     slides[i - 1].style.display = "block";
-    setTimeout(transicaoSlide, 7000);
+    setTimeout(transicaoSlide, 4000);
 }
