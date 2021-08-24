@@ -6,6 +6,25 @@
     height: 400px;
     border: #F2F2F2 1px solid;
   }
+  .secao-saiba-mais-curadoria{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 160px;
+    border: #F2F2F2 1px solid;
+  }
+  .curadoriaTitulo{
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 10%;
+}
+.divTextoCuradoria{
+    width: 100%;
+    margin: 20px;
+    margin-top: 0;
+    margin-right: 10%;
+}
   .imagemSaibaMais{
       width: 420px;
       height: 280px;
