@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://grupo1-itau-tech-gama.netlify.app/Image/logotipo.png" title="SAÚDE NEWS" />
+<img src="image/logotipo.png" title="SAÚDE NEWS" />
 </h1>
 
 <h3 align="center">
@@ -41,3 +41,63 @@ Funcionalidades que o sistema oferece:
 - Tela Sobre Nós que apresenta as informações sobre os desenvolvedores
 - Tela de Contato que possui um formulário para entrar em contato com os desenvolvedores
 - Tela de Saiba Mais que tem a Curadoria das notícias
+
+	
+## 🖥️🖱️ Telas 
+
+Nesta seção serão exibidas as telas do sistema e sua navegabilidade.
+
+### Home
+<p align="center">
+<img src="image/telas/home.png" title="tela Home" />
+</p>
+Nesta tela inicial é exibido as notícias.
+
+<br/><br/>
+### Sobre Nós
+<p align="center">
+<img src="image/telas/sobrenos.png" title="tela Sobre Nós" />
+</p>
+Nesta tela é exibido as informações sobre os desenvolvedores. 
+
+<br/><br/>
+### Contato
+<p align="center">
+<img src="image/telas/contato.png" title="tela Contato" />
+</p>
+Nesta tela é exibido um formulário para entrar em contato com os desenvolvedores.
+
+<br/><br/>
+### Saiba Mais
+<p align="center">
+<img src="image/telas/saibamais.png" title="tela Saiba Mais" />
+</p>
+Esta tela apresenta a curadoria das notícias.
+
+<br/><br/>
+### Sucesso
+<p align="center">
+<img src="image/telas/sucesso.png" title="tela Sucesso" />
+</p>
+A tela Sucesso simula a resposta 200 do código HTTP, ou seja requisição enviada com sucesso.
+
+<br/><br/>
+### Gráfico GitHub
+<p align="center">
+<img src="image/telas/githubgrafico.png" title="Gráfico GitHub" />
+</p>
+Gráfico dos Commits. 
+
+<br/><br/>
+### Gráfico GitHub
+<p align="center">
+<img src="image/telas/githubgrafico1.png" title="Gráfico GitHub" />
+</p>
+Gráfico dos Commits. 
+
+<br/><br/>
+### Gráfico GitHub
+<p align="center">
+<img src="image/telas/githubgrafico2.png" title="Gráfico GitHub" />
+</p>
+Network graph
