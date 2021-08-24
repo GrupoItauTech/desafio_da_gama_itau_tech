@@ -28,7 +28,7 @@ Para ver a **Landing page**, clique aqui: [SAÚDE NEWS](https://grupo1-itau-tech
 
 ## 🚀 Tecnologias 
 
-Tecnologias que utilizamos para desenvolver este web client:
+Tecnologias que utilizamos para desenvolver a Landing page:
 
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
