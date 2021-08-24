@@ -1,24 +1,29 @@
 
-#valeuGif {
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    min-width: 100%;
-    min-height: 100%;
-  }
+#idAgradecimento{
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  max-height: 100%;
+  max-width: 100%;
+}
 
-  btn-wrap{
-    position:relative;
+  .btn-wrap{
+    position:fixed;
+    top: 70px; 
+    right: 90px; 
     text-align:center;
-}
+    }
+
 .btn-wrap button{
-    position:absolute;
-    z-index:1;
-    top:50%;
-    left:50%;
-    width:60px;
-    height:30px;
-    padding:0;
-    margin:-15px 0 0 -30px;
-    border:0 none;
+  background-color: #F2F2F2;
+  z-index:1;
+  top:50%;
+  left:50%;
+  width:90px;
+  height:60px;
+  padding:0;
+  margin:-15px 0 0 -30px;
+  border-radius: 12px;
+   
 }
+
