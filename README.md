@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="image/logotipo.png" title="SAÚDE NEWS" />
+<img src="https://grupo1-itau-tech-gama.netlify.app/image/logotipo.png" title="SAÚDE NEWS" />
 </h1>
 
 <h3 align="center">
@@ -49,55 +49,55 @@ Nesta seção serão exibidas as telas do sistema e sua navegabilidade.
 
 ### Home
 <p align="center">
-<img src="image/telas/home.png" title="tela Home" />
+<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/home.png" title="tela Home" />
 </p>
 Nesta tela inicial é exibido as notícias.
 
 <br/><br/>
 ### Sobre Nós
 <p align="center">
-<img src="image/telas/sobrenos.png" title="tela Sobre Nós" />
+<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/sobrenos.png" title="tela Sobre Nós" />
 </p>
 Nesta tela é exibido as informações sobre os desenvolvedores. 
 
 <br/><br/>
 ### Contato
 <p align="center">
-<img src="image/telas/contato.png" title="tela Contato" />
+<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/contato.png" title="tela Contato" />
 </p>
 Nesta tela é exibido um formulário para entrar em contato com os desenvolvedores.
 
 <br/><br/>
 ### Saiba Mais
 <p align="center">
-<img src="image/telas/saibamais.png" title="tela Saiba Mais" />
+<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/saibamais.png" title="tela Saiba Mais" />
 </p>
 Esta tela apresenta a curadoria das notícias.
 
 <br/><br/>
 ### Sucesso
 <p align="center">
-<img src="image/telas/sucesso.png" title="tela Sucesso" />
+<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/sucesso.png" title="tela Sucesso" />
 </p>
 A tela Sucesso simula a resposta 200 do código HTTP, ou seja requisição enviada com sucesso.
 
 <br/><br/>
 ### Gráfico GitHub
 <p align="center">
-<img src="image/telas/githubgrafico.png" title="Gráfico GitHub" />
+<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/githubgrafico.png" title="Gráfico GitHub" />
 </p>
 Gráfico dos Commits. 
 
 <br/><br/>
 ### Gráfico GitHub
 <p align="center">
-<img src="image/telas/githubgrafico1.png" title="Gráfico GitHub" />
+<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/githubgrafico1.png" title="Gráfico GitHub" />
 </p>
 Gráfico dos Commits. 
 
 <br/><br/>
 ### Gráfico GitHub
 <p align="center">
-<img src="image/telas/githubgrafico2.png" title="Gráfico GitHub" />
+<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/githubgrafico2.png" title="Gráfico GitHub" />
 </p>
 Network graph
