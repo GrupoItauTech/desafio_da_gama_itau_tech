@@ -115,7 +115,7 @@ A tela referente mensagem recebida no Netlifly cujo projeto hospedado no caminho
 <p align="center">
 <img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/mensagemvinculadaaosemaildosintegrantegrupo.JPG" title="tela Netlifly" />
 </p>
-A tela se referente mensagem recebida no Netlifly a qual é vinculada a cada integrante do Grupo 1, pois o intento é otimizar a resposta de retorno ao cliente-usuário.
+A tela referente mensagem recebida no Netlifly a qual é vinculada a cada integrante do Grupo 1, pois o intento é otimizar a resposta de retorno ao cliente-usuário.
 
 <br/><br/>
 ### Gráfico GitHub
