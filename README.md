@@ -19,6 +19,7 @@
 Para ver a **Landing page**, clique aqui: [SAÚDE NEWS](https://grupo1-itau-tech-gama.netlify.app/index.html)</br>
 
 ### 💻 Desenvolvedores
+
 - [Bruno Aparecido Marques](https://github.com/BrunoApMarques)
 - [Cristiano de Souza Santos](https://github.com/CSS6958)
 - [Fabricio Messias](https://github.com/FabricioMessias)
@@ -36,6 +37,7 @@ Tecnologias que utilizamos para desenvolver a Landing page:
 
 
 ## ⚙️ Funcionalidades
+
 Funcionalidades que o sistema oferece:
 - Tela Home que apresenta as notícias
 - Tela Sobre Nós que apresenta as informações sobre os desenvolvedores
@@ -55,6 +57,7 @@ Nesta tela inicial é exibido as notícias.
 
 <br/><br/>
 ### Sobre Nós
+
 <p align="center">
 <img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/sobrenos.png" title="tela Sobre Nós" />
 </p>
@@ -62,6 +65,7 @@ Nesta tela é exibido as informações sobre os desenvolvedores.
 
 <br/><br/>
 ### Contato
+
 <p align="center">
 <img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/contato.JPG" title="tela Contato" />
 </p>
@@ -69,6 +73,7 @@ Nesta tela é exibido um formulário para entrar em contato com os desenvolvedor
 
 <br/><br/>
 ### Saiba Mais
+
 <p align="center">
 <img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/saibamais.png" title="tela Saiba Mais" />
 </p>
@@ -76,6 +81,7 @@ Esta tela apresenta a curadoria das notícias.
 
 <br/><br/>
 ### Sucesso
+
 <p align="center">
 <img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/sucesso.png" title="tela Sucesso" />
 </p>
@@ -84,6 +90,7 @@ A tela Sucesso simula a resposta 200 do código HTTP, ou seja requisição envia
 <br/><br/>
 
 ### Netlifly
+
 <p align="center">
 <img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/netlifly.JPG" title="tela Netlifly" />
 </p>
@@ -98,6 +105,7 @@ A tela referente ao Fom no Netlifly cujo projeto hospedado no caminho: https://g
 
 
 ### Netlifly Mensagem Recebida
+
 <p align="center">
 <img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/netliflyformmensagem.JPG" title="tela Netlifly" />
 </p>
@@ -105,6 +113,7 @@ A tela referente mensagem recebida no Netlifly cujo projeto hospedado no caminho
 
 <br/><br/>
 ### Gráfico GitHub
+
 <p align="center">
 <img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/githubgrafico.png" title="Gráfico GitHub" />
 </p>
@@ -112,6 +121,7 @@ Gráfico dos Commits.
 
 <br/><br/>
 ### Gráfico GitHub
+
 <p align="center">
 <img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/githubgrafico1.png" title="Gráfico GitHub" />
 </p>
@@ -119,6 +129,7 @@ Gráfico dos Commits.
 
 <br/><br/>
 ### Gráfico GitHub
+
 <p align="center">
 <img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/githubgrafico2.png" title="Gráfico GitHub" />
 </p>
