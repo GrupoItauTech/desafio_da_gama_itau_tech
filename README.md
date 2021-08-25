@@ -63,7 +63,7 @@ Nesta tela é exibido as informações sobre os desenvolvedores.
 <br/><br/>
 ### Contato
 <p align="center">
-<img src="/Image/telas/contato.JPG title="tela Contato" />
+<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/contato.JPG title="tela Contato" />
 </p>
 Nesta tela é exibido um formulário para entrar em contato com os desenvolvedores.
 
