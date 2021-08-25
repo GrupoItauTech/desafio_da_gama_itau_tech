@@ -100,7 +100,7 @@ A tela principal do Netlifly cujo projeto hospedado no caminho: https://grupo1-i
 <p align="center">
 <img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/netliflyform.JPG" title="tela Netlifly" />
 </p>
-A tela referente ao Fom no Netlifly cujo projeto hospedado no caminho: https://grupo1-itau-tech-gama.netlify.app/
+A tela se referente ao Fom no Netlifly cujo projeto hospedado no caminho: https://grupo1-itau-tech-gama.netlify.app/
 
 
 
