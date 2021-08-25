@@ -82,6 +82,7 @@ Esta tela apresenta a curadoria das notícias.
 A tela Sucesso simula a resposta 200 do código HTTP, ou seja requisição enviada com sucesso.
 
 <br/><br/>
+
 ### Netlifly
 <p align="center">
 <img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/netlifly.JPG" title="tela Netlifly" />
@@ -93,6 +94,14 @@ A tela principal do Netlifly cujo projeto hospedado no caminho: https://grupo1-i
 <img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/netliflyform.JPG" title="tela Netlifly" />
 </p>
 A tela referente ao Fom no Netlifly cujo projeto hospedado no caminho: https://grupo1-itau-tech-gama.netlify.app/
+
+
+
+### Netlifly Mensagem Recebida
+<p align="center">
+<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/netliflyformmensagem.JPG" title="tela Netlifly" />
+</p>
+A tela referente mensagem recebida no Netlifly cujo projeto hospedado no caminho: https://grupo1-itau-tech-gama.netlify.app/
 
 <br/><br/>
 ### Gráfico GitHub
